@@ -1,4 +1,4 @@
-import { body, param } from "express-validator";
+import { body } from "express-validator";
 
 const createAddressValidator = () => {
   return [
@@ -44,7 +44,4 @@ const updateAddressValidator = () => {
   ];
 };
 
-export {
-  createAddressValidator,
-  updateAddressValidator,
-};
+export { createAddressValidator, updateAddressValidator };

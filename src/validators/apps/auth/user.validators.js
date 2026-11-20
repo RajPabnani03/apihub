@@ -1,4 +1,4 @@
-import { body, param } from "express-validator";
+import { body } from "express-validator";
 import { AvailableUserRoles } from "../../../constants.js";
 
 const userRegisterValidator = () => {
@@ -69,5 +69,5 @@ export {
   userLoginValidator,
   userRegisterValidator,
   userResetForgottenPasswordValidator,
-  userAssignRoleValidator
+  userAssignRoleValidator,
 };
